@@ -9,7 +9,8 @@ public class Arithmetic_operators {
         a = 43;
         b = 98;
         sum = a + b ;
-        System.out.print(sum);
+        System.out.println("sum of two number a and b is :" + sum);
+        System.out.printf("sum of two number a and b is: ", sum);
 
 
     }

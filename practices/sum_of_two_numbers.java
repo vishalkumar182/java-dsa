@@ -1,4 +1,4 @@
-package practices;
+/* package practices;
 
 public class sum_of_two_numbers {
     public static void main(String[] args) {
@@ -14,6 +14,35 @@ public class sum_of_two_numbers {
 
 
    }
-}
+} */
 
+
+// taking input from the user:
+package practices;
+
+import java.util.Scanner; // import scanner class
+
+public class sum_of_two_numbers {
+    public static void main(String[] args) {
+        int num_1;
+        int num_2;
+        // object creation 
+        Scanner scanner = new Scanner(System.in);
+
+        // taking input from the user 
+        System.out.println("enter the first number:");
+        num_1 = scanner.nextInt();
+
+        System.out.println("enter the second number:");
+        num_2 = scanner.nextInt();
+
+        // adding two number 
+        int sum = num_1 + num_2;
+        System.out.println("sum of two number is :" + sum);
+        scanner.close();
+
+        
+    }
+    
+}
    

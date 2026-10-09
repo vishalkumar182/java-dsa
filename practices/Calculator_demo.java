@@ -1,4 +1,4 @@
-package practices;
+/* package practices;
 
 public class Calculator_demo {
     public static void main(String[] vish) {
@@ -34,5 +34,18 @@ class Calculator {
         int div = x / y;
            System.out.println("division of two number is : " + div);
 
+    }
+}
+ */
+//Phase 1: Rewriting the Blueprint with return
+class Calculator {
+    // 🌟 Notice: 'void' is changed to 'int' because it returns a whole number
+    int add(int x, int y) {
+        int sum = x + y;
+        return sum; // 🚚 This delivers the value of sum back to the main method!
+    }
+    
+    int sub(int x, int y) {
+        return x - y; // 🔥 Shortcut: You can return the calculation directly!
     }
 }

@@ -1,4 +1,4 @@
-package practices;
+
 
 public class Electric_car_demo {
     public static void main (String[] args) {

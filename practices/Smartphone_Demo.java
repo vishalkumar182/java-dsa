@@ -1,4 +1,5 @@
-package practices;
+
+
 
 public class Smartphone_Demo {
     public static void main(String[] args) {

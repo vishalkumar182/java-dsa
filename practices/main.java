@@ -1,4 +1,5 @@
- package practices;
+
+
 class Dog {
 
     // variables(properties of the dog)

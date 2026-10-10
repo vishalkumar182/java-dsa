@@ -17,8 +17,9 @@ public class sum_of_two_numbers {
 } */
 
 
- // taking input from the user:
-package practices;
+// taking input from the user:
+
+ 
 
 import java.util.Scanner; // import scanner class
 

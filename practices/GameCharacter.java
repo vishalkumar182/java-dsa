@@ -1,4 +1,5 @@
-package practices;
+
+
 import java.util.Scanner;
 
 

@@ -6,6 +6,7 @@ public class MultilevelDemo {
         vk.bike();
         vk.gold();
         vk.house();
+        //vk.Silver();  // problem
     }
 }
 
@@ -23,13 +24,13 @@ class Father  extends Grandfather {
 
 }
 
-class Me extends Father {
+class Me extends Father{
     void bike() {
         System.out.println("Mere pass sports bike hai ");
     }
 }
 
-class Mom  extends Me{
+class Mom {
     void Silver() {
         System.out.println("Mummy ke pass 3 kg siver hai");
   }

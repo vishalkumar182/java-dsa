@@ -9,10 +9,11 @@ public class Constructor {
 }
 
 class Baby {
-    // baccha paida hote hi rona hai 
+    // constructor
   Baby(){
       System.out.println("Baccha ro raha hai");
     }
+    // function
 
     void play() {
         System.out.println("baby is playing");

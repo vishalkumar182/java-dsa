@@ -1,7 +1,7 @@
 package Function;
 
 public class Function_basic {
-    public static void main(String[] vkis) {
+    public static void main (String[] vkis) {
         Hello hello = new Hello();
         hello.greet();
 
@@ -17,7 +17,10 @@ public class Function_basic {
 
     /*
     Syntax for function :
-    Acess modifier return type function_name
+    Acess modifier return type function_name (parameters){
+    // code
+    return;  
+    }
      */  
 
 

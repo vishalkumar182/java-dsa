@@ -11,9 +11,14 @@ public class Function_basic {
     class Hello {
         public void greet() {
             System.out.println("Hello vishal");
-        
+
+        }
     }
-}
+
+    /*
+    Syntax for function :
+    Acess modifier return type function_name
+     */  
 
 
 

@@ -20,37 +20,36 @@ class Student {
     // properties
     String name;
     int age;
-    String college ;
+    String college;
     String department;
     String city;
-    
+
     // empty constructor
     Student() {
-        System.out.println("empty");
-
+        // System.out.println("empty");
 
     }
 
     // one argument
     Student(int a) {
         age = a;
-         System.out.println(a);
+        // System.out.println(a);
     }
 
     Student(int a, String n) {
         age = a;
         name = n;
-         System.out.println(a  + " "+ n);
+        // System.out.println(a  + " "+ n);
 
-}
+    }
 
-Student(int a, String n, String c) {
-    
-  age = a;
-  name = n;
-  college = c;
-  System.out.println(a  + " "+ n + " " + c);
-        
+    Student(int a, String n, String c) {
+
+        age = a;
+        name = n;
+        college = c;
+        // System.out.println(a  + " "+ n + " " + c);
+
     }
 
     Student(int a, String n, String c, String d) {
@@ -63,15 +62,16 @@ Student(int a, String n, String c) {
     }
 
     Student(int age, String name, String college, String department, String city) {
-            // optimised way use this keyword when parameter name and class variabls name are same
+        // optimised way use this keyword when parameter name and class variabls name are same
 
         this.age = age;
         this.name = name;
         this.college = college;
         this.department = department;
         this.city = city;
-        System.out.println(age + " "+ name+ " " + college + " " + department + " " + city);
+        // System.out.println(age + " "+ name+ " " + college + " " + department + " " + city);
     }
-    
-    
+
 }
+
+// note constructor work is only to set the value not to print..
